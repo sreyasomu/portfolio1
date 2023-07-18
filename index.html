@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img class="logo" src="data:image/png;base64,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" alt="logo">
+             <ul>
+                <li class="lists"><a href="#home" class="links">HOME</a></li>
+                <li class="lists"><a href="#about"class="links">ABOUT</a></li>
+                <li class="lists"><a href="#skills"class="links" >SKILLS</a></li>
+                <li class="lists"><a href="CONTACT"class="links" >CONTACT</a></li>
+            </ul>
+             </nav>
+             <section id="home">
+             <div class="title">
+                <h1 class="title-h1">i'm sreya <span id="last-name">steel</span></h1>
+                <p class="title-p">This is my offical portofolio website to describe all <br>
+                Details and work experience in Web Development.</p>
+                <a href="./SREYA BIO (1).pdf" class="title-link" download>DOWNLOAD CV</a>
+            </div>     
+            <div class="images">   
+                <img class ="imageGroup"  id="shape" src="./shape.png" alt="shape">
+                <img class ="imageGroup"  id="girl" src="./girl.png" alt="girl">
+    </div>
+    </section>
+    <!-- about -->
+    <section id="about">
+        <div class="about-head">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./about.jfif" alt="about">
+            </div>
+            <div class="about-details">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam soluta ullam inventore,
+                    animi unde? Distinctio assumenda dolores, cumque dolor molestiae error eligendi facere
+                    consequuntur. Nulla vel doloremque atque ullam?</p>
+                <div class="informations">
+                    <div class="info-box">
+                        <i class="fa-solid fa-user"></i>
+                        <span>sreya</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>9963332566</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>sreya@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills">
+        <div class="about-head">
+            <h2>SKILLS</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- skills content -->
+        <div class="skill_container">
+            <!-- for progress -->
+            <div class="progress-bar">
+                 <!-- html -->
+              <div class="progress-bar">
+               <div class="bar-container">
+                <h1>HTML</h1>
+                <span>95%</span>
+                <div class="base-bar"></div>
+                <div class="base-bar html-bar"></div>
+               </div>
+               <!-- css -->
+               <div class="progress-bar">
+                <div class="bar-container">
+                 <h1>CSS</h1>
+                 <span>84%</span>
+                 <div class="base-bar"></div>
+                 <div class="base-bar css-bar"></div>
+                 </div>
+                 <!-- js -->
+                 <div class="progress-bar">
+                    <div class="bar-container">
+                     <h1>JS</h1>
+                     <span>90%</span>
+                     <div class="base-bar"></div>
+                     <div class="base-bar js-bar"></div>
+                     </div>
+                     <!-- react -->
+                    <div class="progress-bar">
+                        <div class="bar-container">
+                         <h1>REACT</h1>
+                         <span>88%</span>
+                         <div class="base-bar"></div>
+                         <div class="base-bar react-bar"></div>
+                        </div>
+                        <!--for  image -->
+            <div class="skill-image">
+              <img src="./skill.jpg" alt="skills"></div>
+            </div>
+             </section>
+
+       <!-- contactS -->
+       <section id="contactS">
+        <div class="about-head">
+            <h2>CONTACTS</h2>
+            <span>My Contacts</span>
+        </div>
+        <!-- icons collection --> 
+        <div class="icon-set">
+             <!-- linked in -->
+        <div class="icon">
+            <a href="">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+        <!-- twitter -->
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                </div>
+                <!-- github -->
+            <div class="icon">
+                <a href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    </div>
+                    <!-- whatsapp -->
+                    <div class="icon">
+                        <a href="">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                        </div>
+                        <!-- instagram -->
+                        <div class="icon">
+        <a href="">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        </div>
+    </div>
+ </section>
+ <!-- footer -->
+ <footer>
+    <p style="text-align: center;font-weight: bold;" >All rights Reserved &copy;My portfolio &reg;Sreya steel</p>
+    <div class="up-arrow">
+        <a href="#container"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+    </div>
+    </footer>
+    </div>
+</body>
+
+</html>
+       
